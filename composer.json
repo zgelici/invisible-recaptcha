@@ -1,5 +1,5 @@
 {
-    "name": "zadikg/invisible-recaptcha",
+    "name": "albertcht/invisible-recaptcha",
     "description": "Invisible reCAPTCHA For Laravel.",
     "keywords": ["recaptcha", "no-captcha", "captcha", "invisible", "invisible-recaptcha", "laravel", "laravel5", "php"],
     "license": "MIT",
@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "zgelici\\InvisibleReCaptcha\\": "src/"
+            "AlbertCht\\InvisibleReCaptcha\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ZadikG\\InvisibleReCaptcha\\InvisibleReCaptchaServiceProvider"
+                "AlbertCht\\InvisibleReCaptcha\\InvisibleReCaptchaServiceProvider"
             ]
         }
     }
